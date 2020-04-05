@@ -1,0 +1,61 @@
+@-moz-document domain("www.nn.ru") {
+body > div > div > div[style*="text-align:center"] {
+    display: none !important
+}
+body > div > div > div > object {
+    display: none !important;
+}
+#topAdv {
+    display: none !important;
+}
+#sponsor {
+    display: none !important
+}
+#rPanPad {
+    margin: 0px !important;
+}
+#rPan {
+    display: none !important;
+}
+#contentMainAll {
+    margin: 0 !important;
+}
+/* #contentMainCol>table:nth-child(5):not(.ForumRate):not(#community) {display: none !important;} */
+#sky {
+    display: none !important;
+}
+.banner {
+    display: none !important;
+}
+.r-info_wrapper {
+    width: 527px !important;
+}
+.r-info_left_conteiner {
+    display: none !important;
+}
+.forumTopBanners {
+    display: none !important;
+}
+.banners-block {
+    display: none !important;
+}
+.right_pub {
+    display: none !important;
+}
+/* #forumreply > div:nth-child(2) {display: none !important;} */
+#forumreply > div[style*="width:203px;"] {
+    display: none !important;
+}
+/* New Banners 2016 */
+.banner-cont,
+.banners-cont {
+    display: none !important;
+}
+.body-cont {
+    margin: 0 !important;
+}
+/* Removing links preview */
+.link_preview-cont {
+    display: none;
+}
+}
