@@ -2,109 +2,103 @@
 {
   body > div > div > div[style*="text-align:center"]
   {
-    display: none !important;
+      display: none !important
   }
-
   body > div > div > div > object
   {
-    display: none !important;
+      display: none !important;
   }
-
   #topAdv
   {
-    display: none !important;
+      display: none !important;
   }
-
   #sponsor
   {
-    display: none !important;
+      display: none !important
   }
-
   #rPanPad
   {
-    margin: 0px !important;
+      margin: 0px !important;
   }
-
   #rPan
   {
-    display: none !important;
+      display: none !important;
   }
-
   #contentMainAll
   {
-    margin: 0 !important;
+      margin: 0 !important;
   }
-
-/* #contentMainCol>table:nth-child(5):not(.ForumRate):not(#community) {display: none !important;} */
+  
+  /* #contentMainCol>table:nth-child(5):not(.ForumRate):not(#community) {display: none !important;} */
   #sky
   {
-    display: none !important;
+      display: none !important;
   }
-
   .banner
   {
-    display: none !important;
+      display: none !important;
   }
-
   .r-info_wrapper
   {
-    width: 527px !important;
+      width: 527px !important;
   }
-
   .r-info_left_conteiner
   {
-    display: none !important;
+      display: none !important;
   }
-
   .forumTopBanners
   {
-    display: none !important;
+      display: none !important;
   }
-
   .banners-block
   {
-    display: none !important;
+      display: none !important;
   }
-
   .right_pub
   {
-    display: none !important;
+      display: none !important;
   }
-
-/* #forumreply > div:nth-child(2) {display: none !important;} */
+  
+  /* news in reply form */
+  .block_reply .news-widget
+  {
+      display: none;
+  }
+  
+  /* #forumreply > div:nth-child(2) {display: none !important;} */
   #forumreply > div[style*="width:203px;"]
   {
-    display: none !important;
+      display: none !important;
   }
-
-/* New Banners 2016 */
+  
+  /* New Banners 2016 */
   .banner-cont,
-.banners-cont
+  .banners-cont
   {
-    display: none !important;
+      display: none !important;
   }
-
   .body-cont
   {
-    margin: 0 !important;
+      margin: 0 !important;
   }
-
+  
+  
   .head-banners-cont
   {
-    display: none;
+      display: none;
   }
-
-/* Removing links preview */
+  
+  /* Removing links preview */
   .link_preview-cont
   {
-    display: none;
+      display: none;
   }
-
-/* bottom ads */
+  
+  /* bottom ads */
   .barahloOnForum,
-.market_pop_items,
-.rekl-block
+  .market_pop_items,
+  .rekl-block
   {
-    display: none;
+      display: none;
   }
 }
