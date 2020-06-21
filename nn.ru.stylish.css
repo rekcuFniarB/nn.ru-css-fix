@@ -1,104 +1,86 @@
 @-moz-document domain("www.nn.ru")
-{
-  body > div > div > div[style*="text-align:center"]
   {
+  body > div > div > div[style*="text-align:center"] {
       display: none !important
   }
-  body > div > div > div > object
-  {
+  body > div > div > div > object {
       display: none !important;
   }
-  #topAdv
-  {
+  #topAdv {
       display: none !important;
   }
-  #sponsor
-  {
+  #sponsor {
       display: none !important
   }
-  #rPanPad
-  {
+  #rPanPad {
       margin: 0px !important;
   }
-  #rPan
-  {
+  #rPan {
       display: none !important;
   }
-  #contentMainAll
-  {
+  #contentMainAll {
       margin: 0 !important;
   }
   
   /* #contentMainCol>table:nth-child(5):not(.ForumRate):not(#community) {display: none !important;} */
-  #sky
-  {
+  #sky {
       display: none !important;
   }
-  .banner
-  {
+  .banner {
       display: none !important;
   }
-  .r-info_wrapper
-  {
+  .r-info_wrapper {
       width: 527px !important;
   }
-  .r-info_left_conteiner
-  {
+  .r-info_left_conteiner {
       display: none !important;
   }
-  .forumTopBanners
-  {
+  .forumTopBanners {
       display: none !important;
   }
-  .banners-block
-  {
+  .banners-block {
       display: none !important;
   }
-  .right_pub
-  {
+  .right_pub {
       display: none !important;
   }
   
   /* news in reply form */
-  .block_reply .news-widget
-  {
+  .block_reply .news-widget {
       display: none;
   }
   
   /* #forumreply > div:nth-child(2) {display: none !important;} */
-  #forumreply > div[style*="width:203px;"]
-  {
+  #forumreply > div[style*="width:203px;"] {
       display: none !important;
   }
   
   /* New Banners 2016 */
   .banner-cont,
-  .banners-cont
-  {
+  .banners-cont {
       display: none !important;
   }
-  .body-cont
-  {
+  .body-cont {
       margin: 0 !important;
   }
+  .body-cont .wrap-cont {
+      width: 100%;
+  }
   
-  
-  .head-banners-cont
-  {
+  .head-banners-cont {
       display: none;
   }
   
   /* Removing links preview */
-  .link_preview-cont
-  {
+  .link_preview-cont {
       display: none;
   }
   
   /* bottom ads */
   .barahloOnForum,
   .market_pop_items,
-  .rekl-block
-  {
+  .rekl-block {
       display: none;
   }
 }
+  
