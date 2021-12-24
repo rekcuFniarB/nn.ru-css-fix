@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name           nn.ru forum style fixes.
+@namespace      USO Archive
+@author         retratserif
+@description    nn.ru forum style fixes.
+@version        20200621.10.24
+@license        CC-BY-SA-4.0
+@preprocessor   uso
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+
 @-moz-document domain("www.nn.ru")
   {
   body > div > div > div[style*="text-align:center"] {
@@ -83,4 +94,18 @@
       display: none;
   }
 }
-  
+
+/* Header redesign 2021 */
+.header__profile  .profile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    min-width: 290px
+}
+.header__search-active {
+    z-index: 100;
+}
+.search_form .checkbox-cont-active {
+    padding-bottom: 4px;
+}
