@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           nn.ru forum style fixes.
 @namespace      USO Archive
-@author         retratserif
-@description    nn.ru forum style fixes.
-@version        20200621.10.24
+@author         rekcuFniarB
+@description    nn.ru forum style fixes. https://github.com/rekcuFniarB/nn.ru-css-fix
+@version        2021.12.24
 @license        CC-BY-SA-4.0
 @preprocessor   uso
 ==/UserStyle== */
@@ -95,7 +95,7 @@
   }
 }
 
-/* Header redesign 2021 */
+/* BEGIN Header redesign 2021 */
 .header__profile  .profile {
     position: absolute;
     top: 0;
@@ -109,3 +109,4 @@
 .search_form .checkbox-cont-active {
     padding-bottom: 4px;
 }
+/* END Header redesign 2021 */
