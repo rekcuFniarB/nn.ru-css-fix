@@ -12,7 +12,7 @@ Screenshots
 
 ![screenshot before](https://telegra.ph/file/00326bf701b7240544ae1.png)
 
-### Afger ###
+### After ###
 
 ![screenshot after 1](https://telegra.ph/file/e954c851fe85c5061f2c9.png)
 
