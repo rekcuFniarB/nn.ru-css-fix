@@ -16,6 +16,6 @@ Screenshots
 
 ### After ###
 
-![screenshot after 1](https://telegra.ph/file/e954c851fe85c5061f2c9.png)
+![screenshot after 1](https://telegra.ph/file/aa3218b08d0b0dc0f85e0.png)
 
 ![screenshot after 2](https://telegra.ph/file/12a7ae19b0b0cdb95244c.png)

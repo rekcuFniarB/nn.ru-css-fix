@@ -96,10 +96,12 @@
 }
 
 /* BEGIN Header redesign 2021 */
+.header__profile {
+    height: 0;
+}
 .header__profile  .profile {
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: relative;
+    top: -90px;
     z-index: 10;
     min-width: 290px
 }
@@ -108,5 +110,8 @@
 }
 .search_form .checkbox-cont-active {
     padding-bottom: 4px;
+}
+.heading .header__search:not(.header__search-active) {
+    width: 463px;
 }
 /* END Header redesign 2021 */
