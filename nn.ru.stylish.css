@@ -129,5 +129,8 @@
     .header__search-active {
         bottom: -19px;
     }
+    #app > [data-cms-place] {
+        display: none;
+    }
     /* END Header redesign 2021 */
 }
