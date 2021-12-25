@@ -9,122 +9,125 @@
 ==/UserStyle== */
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("www.nn.ru")
-  {
-  body > div > div > div[style*="text-align:center"] {
-      display: none !important
-  }
-  body > div > div > div > object {
-      display: none !important;
-  }
-  #topAdv {
-      display: none !important;
-  }
-  #sponsor {
-      display: none !important
-  }
-  #rPanPad {
-      margin: 0px !important;
-  }
-  #rPan {
-      display: none !important;
-  }
-  #contentMainAll {
-      margin: 0 !important;
-  }
-  
-  /* #contentMainCol>table:nth-child(5):not(.ForumRate):not(#community) {display: none !important;} */
-  #sky {
-      display: none !important;
-  }
-  .banner {
-      display: none !important;
-  }
-  .r-info_wrapper {
-      width: 527px !important;
-  }
-  .r-info_left_conteiner {
-      display: none !important;
-  }
-  .forumTopBanners {
-      display: none !important;
-  }
-  .banners-block {
-      display: none !important;
-  }
-  .right_pub {
-      display: none !important;
-  }
-  
-  /* news in reply form */
-  .block_reply .news-widget {
-      display: none;
-  }
-  
-  /* #forumreply > div:nth-child(2) {display: none !important;} */
-  #forumreply > div[style*="width:203px;"] {
-      display: none !important;
-  }
-  
-  /* New Banners 2016 */
-  .banner-cont,
-  .banners-cont {
-      display: none !important;
-  }
-  .body-cont {
-      margin: 0 !important;
-  }
-  .body-cont .wrap-cont {
-      width: 100%;
-  }
-  
-  .head-banners-cont {
-      display: none;
-  }
-  
-  /* Removing links preview */
-  .link_preview-cont {
-      display: none;
-  }
-  
-  /* bottom ads */
-  .barahloOnForum,
-  .market_pop_items,
-  .rekl-block {
-      display: none;
-  }
-}
+@-moz-document domain("www.nn.ru") {
+    body > div > div > div[style*="text-align:center"] {
+        display: none !important
+    }
+    body > div > div > div > object {
+        display: none !important;
+    }
+    #topAdv {
+        display: none !important;
+    }
+    #sponsor {
+        display: none !important
+    }
+    #rPanPad {
+        margin: 0px !important;
+    }
+    #rPan {
+        display: none !important;
+    }
+    #contentMainAll {
+        margin: 0 !important;
+    }
 
-/* BEGIN Header redesign 2021 */
-.header__profile {
-    height: 0;
-}
-.header__profile  .profile {
-    position: relative;
-    top: -90px;
-    z-index: 10;
-    min-width: 290px
-}
-.header__search-active {
-    z-index: 100;
-}
-.search_form .checkbox-cont-active {
-    padding-bottom: 4px;
-}
-.heading .header__search:not(.header__search-active) {
-    width: 463px;
-}
-@media (max-width: 1150px) {
-    .heading .header__search:not(.header__search-active) {
-        width: 360px;
+    /* #contentMainCol>table:nth-child(5):not(.ForumRate):not(#community) {display: none !important;} */
+    #sky {
+        display: none !important;
     }
-}
-@media (max-width: 1036px) {
-    .heading .header__search:not(.header__search-active) {
-        right: 0.5vw;
+    .banner {
+        display: none !important;
     }
+    .r-info_wrapper {
+        width: 527px !important;
+    }
+    .r-info_left_conteiner {
+        display: none !important;
+    }
+    .forumTopBanners {
+        display: none !important;
+    }
+    .banners-block {
+        display: none !important;
+    }
+    .right_pub {
+        display: none !important;
+    }
+
+    /* news in reply form */
+    .block_reply .news-widget {
+        display: none;
+    }
+
+    /* #forumreply > div:nth-child(2) {display: none !important;} */
+    #forumreply > div[style*="width:203px;"] {
+        display: none !important;
+    }
+
+    /* New Banners 2016 */
+    .banner-cont,
+    .banners-cont {
+        display: none !important;
+    }
+    .body-cont {
+        margin: 0 !important;
+    }
+    .body-cont .wrap-cont {
+        width: 100%;
+    }
+
+    .head-banners-cont {
+        display: none;
+    }
+
+    /* Removing links preview */
+    .link_preview-cont {
+        display: none;
+    }
+
+    /* bottom ads */
+    .barahloOnForum,
+    .market_pop_items,
+    .rekl-block {
+        display: none;
+    }
+
+    /* BEGIN Header redesign 2021 */
+    .header__profile {
+        height: 0;
+    }
+    .header__profile .profile {
+        position: relative;
+        top: -90px;
+        z-index: 10;
+        min-width: 290px
+    }
+    .header__search-active {
+        z-index: 100;
+    }
+    .search_form .checkbox-cont-active {
+        padding-bottom: 4px;
+    }
+    input.search_query:not(.search_query-active) {
+        display: none;
+    }
+    /*
+    .heading .header__search:not(.header__search-active) {
+        width: 463px;
+    }
+    @media (max-width: 1150px) {
+        .heading .header__search:not(.header__search-active) {
+            width: 360px;
+        }
+    }
+    @media (max-width: 1036px) {
+        .heading .header__search:not(.header__search-active) {
+            right: 0.5vw;
+        }
+    }*/
+    .header__search-active {
+        bottom: -19px;
+    }
+    /* END Header redesign 2021 */
 }
-.header__search-active {
-    bottom: -19px;
-}
-/* END Header redesign 2021 */

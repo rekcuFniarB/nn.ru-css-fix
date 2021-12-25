@@ -14,8 +14,8 @@ Screenshots
 
 ![screenshot before](https://telegra.ph/file/00326bf701b7240544ae1.png)
 
-### After ###
+### After applying ###
 
-![screenshot after 1](https://telegra.ph/file/aa3218b08d0b0dc0f85e0.png)
+![screenshot after 1](https://telegra.ph/file/c41b1b78da7ea3450fd81.png)
 
-![screenshot after 2](https://telegra.ph/file/12a7ae19b0b0cdb95244c.png)
+![screenshot after 2](https://telegra.ph/file/be22fc4ec5c14abea8990.png)
