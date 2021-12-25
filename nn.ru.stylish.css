@@ -114,4 +114,17 @@
 .heading .header__search:not(.header__search-active) {
     width: 463px;
 }
+@media (max-width: 1150px) {
+    .heading .header__search:not(.header__search-active) {
+        width: 360px;
+    }
+}
+@media (max-width: 1036px) {
+    .heading .header__search:not(.header__search-active) {
+        right: 0.5vw;
+    }
+}
+.header__search-active {
+    bottom: -19px;
+}
 /* END Header redesign 2021 */
