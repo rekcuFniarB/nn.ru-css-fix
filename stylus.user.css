@@ -1,13 +1,11 @@
 /* ==UserStyle==
-@name           nn.ru forum style fixes.
-@namespace      USO Archive
-@author         rekcuFniarB
-@description    nn.ru forum style fixes. https://github.com/rekcuFniarB/nn.ru-css-fix
-@version        2022.01.03
-@license        CC-BY-SA-4.0
-@preprocessor   uso
+@name         nn.ru forum style fixes.
+@version      20220103.17.26
+@namespace    userstyles.world/user/rekcufniarb
+@description  nn.ru forum style fixes. https://github.com/rekcuFniarB/nn.ru-css-fix
+@author       rekcufniarb
+@license      CC-BY-SA-4.0
 ==/UserStyle== */
-@namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("www.nn.ru") {
     body > div > div > div[style*="text-align:center"] {
