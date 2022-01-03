@@ -132,5 +132,14 @@
     #app > [data-cms-place] {
         display: none;
     }
+    /* empty space on top of profile page */
+    #hb-top-profile [id^="div-gpt-ad-"] {
+        display: none;
+    }
+    
+    /* Fixing overflowing block on profile page */
+    .container > .wraper > .body-row > .body-col > .body-move-col {
+        margin-top: auto;
+    }
     /* END Header redesign 2021 */
 }
