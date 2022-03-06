@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         nn.ru forum style fixes.
+@name         nn.ru forum style fixes
 @version      20220104.1
 @namespace    USO Archive
 @description  nn.ru forum style fixes. https://github.com/rekcuFniarB/nn.ru-css-fix
@@ -88,6 +88,10 @@
     .barahloOnForum,
     .market_pop_items,
     .rekl-block {
+        display: none;
+    }
+
+    .header__march8nav {
         display: none;
     }
 
